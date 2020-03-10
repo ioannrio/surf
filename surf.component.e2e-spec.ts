@@ -48,10 +48,6 @@ describe('Surf', () => {
 		//prove that page urls is carrier
 		expect(browser.getCurrentUrl()).toEqual('https://www.morosystems.cz/kariera/');
 		browser.sleep(1000);
-
-		//click cookies button just in case
-		element(by.cssContainingText('span.btn__text', 'OK')).click();
-		browser.sleep(1000);
 	});
 
 
